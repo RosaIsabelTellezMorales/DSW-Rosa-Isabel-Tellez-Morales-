@@ -1,11 +1,11 @@
 header{
-    background-color: rgb(207, 80, 150);
+    background-color: rgb(255, 255, 255);
     color: black;
     padding: 13px;
 }
 
 nav{
-    background-color: rgb(175, 135, 155);
+    background-color: rgb(211, 199, 181);
     color: black;
     padding: 10px;
 }
@@ -13,17 +13,17 @@ nav{
 section{
     float: left;
     width: 60% ;
-    background-color: rgb(230, 178, 230);
+    background-color: rgb(182, 228, 235);
 }
 
 aside{
     float: left;
     width: 40% ;
-    background-color: rgb(238, 200, 238);
+    background-color: rgb(145, 162, 207);
 }
 
 footer{
-    background-color: rgb(229, 188, 211);
+    background-color: rgb(161, 162, 224);
     color: black;
     padding: 10px;
 }
@@ -43,4 +43,12 @@ li{
 }
 #Menú #desple{
     display: none;
+}
+li a, boton{
+    display: inline-block;
+    
+}
+iframe{
+    width: 96%;
+    height: 90vh;
 }
