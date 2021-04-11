@@ -25,13 +25,13 @@ aside{
 footer{
     background-color: rgb(161, 162, 224);
     color: black;
-    padding: 10px;
+    padding: 0px;
 }
 .Contenedor::after{
     content:"";
     display: block;
     clear: both;
-    
+   
 }
 ul{
     display: flex;
@@ -39,16 +39,41 @@ ul{
     list-style-type: none;
 }
 li{
-    padding: 6.5px;
+    padding: 5px;
+}
+/*Menú*/
+.Menú li{
+    display: inline-block;
 }
 #Menú #desple{
     display: none;
 }
 li a, boton{
     display: inline-block;
-    
+    color:rgb(0, 0, 0) ;
+    text-align: center;
+    text-decoration: none;
+}
+.ListaDesplegable{
+    display: none;
+    background-color: gainsboro;
+     position: absolute;
+}
+.ListaDesplegable a{
+    color: black;
+    display: block;
+    text-align: left;
+    padding: 0.9em 1em;
+}
+.boton:hover     .ListaDesplegable{
+display: block;
+}
+li a:hover{
+    background-color: rgb(117, 123, 221);
 }
 iframe{
     width: 96%;
     height: 90vh;
 }
+
+
